@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    apiKey: 'AIzaSyBlBsXhEvqRrOQQEMR8Pw6RYETcv_RMksE',
+    authDomain: 'bloom-hr-35ce0.firebaseapp.com',
+    projectId: 'bloom-hr-35ce0',
+    storageBucket: 'bloom-hr-35ce0.firebasestorage.app',
+    messagingSenderId: '666135299999',
+    appId: '1:666135299999:web:831ce6c20e7db1ccb6dfaa',
 }
 
 const app = initializeApp(firebaseConfig)
